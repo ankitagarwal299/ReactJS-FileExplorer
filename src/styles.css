@@ -1,0 +1,29 @@
+.App {
+  font-family: sans-serif;
+}
+
+.folder {
+  background-color: #efefef;
+  padding: 0.3rem 0.7rem;
+  width: 500px;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+}
+
+.folder > button {
+  margin: 0 0.3rem;
+}
+
+.file {
+  margin: 10px 0;
+  cursor: not-allowed;
+}
+
+.input_field {
+  border-radius: 5px;
+  width: 300px;
+  height: 20px;
+  margin: 0.5rem 0;
+  padding: 0.3rem 0.7rem;
+}
